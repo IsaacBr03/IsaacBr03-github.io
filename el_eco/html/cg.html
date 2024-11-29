@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="../css/eleco_estilo.css" rel="stylesheet" type="text/css">
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<script src="../js/eleco_script.js"></script>
+	 <style type="text/css">
+	     .nav .a {
+    padding-top: 10px;
+    background-color: #FF8486;
+		  }
+		.li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		 }
+		 
+		  /* Ajustar la imagen central */
+      .image-container {
+        margin-top: 40px; /* Separación de la barra de navegación */
+        text-align: center;
+		  
+      }
+		  /* Estilo para el texto de la descripción */
+      .description-text {
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 20px;
+      }
+		 /* Animación en el botón de "Más Información" */
+.btn-secondary {
+    animation: bounce 1s infinite;
+}
+
+/* Animación de rebote */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+		 /* Centrar el botón de más información y mantenerlo pequeño */
+.btn-secondary {
+  display: inline-block;   /* Para que el botón sea tan ancho como su contenido */
+  margin: 20px auto;       /* Esto centra el botón horizontalmente */
+  text-align: center;      /* Centra el texto dentro del botón */
+  font-size: 1.1em;        /* Tamaño del texto */
+  padding: 10px 20px;      /* Espaciado dentro del botón */
+  border-radius: 5px;      /* Opcional: Bordes redondeados */
+}
+	.cards-section {
+    padding: 20px;
+    background-color: #454546;
+		border-radius: 15px; /* Bordes redondeados */
+		 max-width: 900px;
+		 margin: 0 auto;
+}	 
+		 .card {
+    border-radius: 0; /* Elimina los bordes redondeados de las cards */
+    background-color: #454546; /* Cambia el color de fondo del contenedor de la card */
+			 border: none;
+}
+		 /* Cambiar el color del texto dentro de las cards */
+.card-text {
+    color: #ffffff; /* Cambia el color del texto dentro de las cards a blanco */
+}
+		 .card-img-top {
+    object-fit: contain;  /* Mantiene la proporción de la imagen sin distorsionarla */
+    width: 100%;          /* Asegura que la imagen ocupe el 100% del ancho del contenedor */
+    height: auto;         /* Mantiene la proporción de la imagen en cuanto a la altura */
+  }
+	  </style>
+ </head>
+<body>
+<header><img  src="../../media/img/logo.png"alt="el eco logo" class="logo" style="width: 300px; height:auto "></header>
+<nav class="navbar navbar-expand-lg navbar-light  menu" > <a class="navbar-brand" href="#">&nbsp;</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"> <a class="nav-link nav-a-letras" href="../../index.html"> <span class="sr-only">(current)</span> <img src="../../media/img/1x/home-blanco.png" width="30px" height="auto" class="redes-icono" ></a>  </li>
+        <li class="nav-item"> <a class="nav-link nav-a-letras" href="../../html/visita.html" style= "padding-top: 20px">Visita&nbsp;</a> </li>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="programas.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style= "padding-top: 20px"> Programa&nbsp; </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="programas.html">Taller</a> <a class="dropdown-item" href="programas.html" style= "padding-top: 20px">Presentación</a>
+            <a class="dropdown-item" href="programas.html">Programa público</a><a class="dropdown-item" href="programas.html">Conferencia</a><a class="dropdown-item" href="programas.html">Recorrido</a><a class="dropdown-item" href="programas.html">Perfomance</a><a class="dropdown-item" href="programas.html">Perfomance</a><a class="dropdown-item" href="programas.html">Exposiciones</a></div>
+			
+        </li>
+        <li class="nav-item"> <a class="nav-link nav-a-letras" href="../../html/exposiciones.html" style= "padding-top: 20px">Exposiciones&nbsp;</a></li>
+        <li class="nav-item"> <a class="nav-link nav-a-letras" href="../../ecoisaac/html/el_eco.html" style= "padding-top: 20px">El Eco&nbsp;</a></li>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="cg.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style= "padding-top: 20px"> CG&nbsp;&nbsp; </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="cg.html">Entrevista</a> <a class="dropdown-item" href="cg.html">Conversación</a>
+            <a class="dropdown-item" href="https://www.youtube.com/watch?v=sFyuKSB54YQ">Publicación</a><a class="dropdown-item" href="cg.html">Cátedra Goeritz</a> </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0 boton-busqueda-hover" type="submit"> &nbsp;<img src="../../media/img/1x/lupa-blanco.png" style="width: 25px"></button>
+      </form>
+  </div>
+  </nav>
+ 
+<div class="container-fluid">
+  <div class="container">
+   <!-- Imagen central -->
+    <div class="image-container mb-3">
+        <img src="../media/img/cg/estatua.jpg" alt="Imagen de Museo" class="img-fluid">
+    </div>
+    <!-- Texto descriptivo -->
+	  <p class="description-text"><strong>De las estatuas de sal y piedra a la antimonumenta.</strong></p>
+	<p class="description-text" >Exposición</p>
+	<p class="description-text">Sábado 2 de Abril, 2022</p>
+    <!-- Botón de más información con link -->
+     <div class="text-center"><a href="https://sites.google.com/view/ctedragoeritz/inicio" class="btn btn-secondary">Más Información</a></div>
+	  
+	  
+	  <!-- Sección de Cards -->
+    <section id="entrevista" class="cards-section mt-4">
+      <div class="row">
+        <!-- Columna 1 -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="../media/img/cg/2Entrevista.jpg" alt="Imagen 2" class="card-img-top img-fluid mx-auto d-block" style="max-height: 300px;">
+                <div class="card-body text-center">
+                    <p class="card-text" name="#entrevista">Entrevista</p>
+                    <p class="card-text"><strong>Entrevista a Guillermo Díaz Arellano</strong></p>
+					<p class="card-text">lun 8 Abr 2019 — lun 8 Abr 2019</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Columna 2 -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="../media/img/cg/32entrevista-(2).jpg" alt="Imagen 3" class="card-img-top img-fluid mx-auto d-block" style="max-height: 300px;">
+                <div class="card-body text-center">
+                    <p class="card-text">Entrevista</p>
+                    <p class="card-text"><strong>Entrevista con Víctor Albarracín</strong></p>
+					<p class="card-text">jue 21 Jun 2018</p>
+                </div>
+            </div>
+        </div>
+      </div>
+	  </section>
+	  
+<!-- Sección de Cards -->
+    <section id="conversacion" class="cards-section mt-4">
+      <div class="row">
+        <!-- Columna 1 -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="../media/img/cg/23conversación-(2).jpg" alt="Imagen 2" class="card-img-top img-fluid mx-auto d-block" style="max-height: 300px;">
+                <div class="card-body text-center">
+                    <p class="card-text">Conversación</p>
+                    <p class="card-text"><strong>Espacios de inmersión, lugares para la experiencia pública</strong></p>
+					<p class="card-text">jue 11 Oct 2018</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Columna 2 -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <img src="../media/img/cg/3conversación.jpg" alt="Imagen 3" class="card-img-top img-fluid mx-auto d-block" style="max-height: 300px;">
+                <div class="card-body text-center">
+                    <p class="card-text">Conversación</p>
+                    <p class="card-text"><strong>Sobre los espacios para la pedagogía extendida en el arte</strong></p>
+					<p class="card-text">sáb 10 Mar 2018</p>
+                </div>
+            </div>
+        </div>
+      </div>
+	  </section>
+	  
+	  <!-- Nueva Sección de Card Justificada a la Izquierda -->
+<section id="goeritz" class="cards-section mt-4">
+  <div class="row justify-content-start"> <!-- Justifica a la izquierda -->
+    <div class="col-md-6 mb-4">
+      <div class="card">
+        <img src="../media/img/cg/Catedra-goeriz.jpg" alt="Imagen 2" class="card-img-top img-fluid mx-auto d-block" style="max-height: 300px;">
+        <div class="card-body text-center">
+          <p class="card-text">Cátedra Goeritz</p>
+          <p class="card-text"><strong>Taller Nómada</strong></p>
+          <p class="card-text">mar 28 Ago 2018 - mié 20 Feb 2019</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </div>
+</div>
+	  
+
+	  
+  <div class="container container-footer"></div>
+
+<!-- body code goes here -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins)  --> 
+	<footer class="footer">&nbsp;
+	  <div class="row">
+	    <div class="col-lg-4 div-nav">
+	      <p><a href="https://eleco.unam.mx/publicaciones/"  target="_blank">Publicaciones</a></p>
+	      <p><a href="https://eleco.unam.mx/storage/2020/12/Protocolo-Museo-Seguro-_-El-Eco-2020-.pdf"  target="_blank">&nbsp;Protocolo Museo Seguro</a></p>
+	    </div>
+	    <div class="col-lg-4 div-nav">
+	      <p><a href="https://eleco.unam.mx/privacidad/"  target="_blank">Aviso de Privacidad DGAV&nbsp;</a></p>
+	     <p><a href="https://eleco.unam.mx/aviso-de-privacidad-integral-del-circuito-cerrado-de-television-cctv-del-museo-experimental-el-eco/"  target="_blank">Aviso de privacidad Integral del Circuito Cerrado de Televisión (CCTV) del Museo Experimental el Eco</a></p>
+        &nbsp;</div>
+	    <div class="col-lg-4 div-nav div-grupo-iconos">
+	      <div class="container div-iconos"><a href="https://www.instagram.com/museoexperimentaleleco/"  target="_blank"><img src="../../media/img/1x/instagram.png" width="50px" height="auto" class="redes-icono" ></a> </div>
+          
+         <div class="container div-iconos"> <a href="https://www.facebook.com/museoexperimentaleleco?locale=es_LA"  target="_blank"><img src="../../media/img/1x/facebook.png" width="50px" height="auto" class="redes-icono" ></a></div>
+&nbsp;  
+		</div>
+	    <div class="col-lg-4 div-nav"> <img src="../../media/img/1024px-Escudo-UNAM-escalable.svg.png" width="80" height="auto" class="redes-icono"><img src="../../media/img/1x/Recurso 9.png" width="100" height="auto" class="redes-icono"> <img src="../../media/img/1x/Recurso 10.png" width="120" height="auto" class="redes-icono" > </div>
+      </div>
+	</footer>
+	<script src="file:///C|/Users/anasofi/Downloads/El eco/el_eco/js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="file:///C|/Users/anasofi/Downloads/El eco/el_eco/js/popper.min.js"></script> 
+	<script src="file:///C|/Users/anasofi/Downloads/El eco/el_eco/js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

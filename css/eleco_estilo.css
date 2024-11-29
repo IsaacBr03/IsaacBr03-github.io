@@ -1,0 +1,114 @@
+body {
+}
+.navbar.navbar-expand-lg.navbar-light {
+    background-color: #454546;
+}
+body header {
+    padding: 20px;
+    background-color: #FFE616;
+    top: 0;
+    position: relative;
+}
+nav{
+	position: fixed;
+	
+}body footer {
+    padding: 10px;
+    height: 100px;
+    background-color: #FFE616;
+}
+.container_hero_section {
+    background-color: #FFFFFF;
+    height: 50px;
+}
+.menu-fixed{
+	position: fixed;
+	z-index: 3;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	width: 100%;
+	max-width;
+	transition: 0.5s;
+	box-shadow: 0px 4px 3px rgba(0,0,0,8);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #FFE616;
+	
+
+	
+}.container-footer {
+    height: 100px;
+}
+.hero-section {
+	    background-image:url("../media/img/pabellon.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+.her {
+}
+.dropdown-menu{
+	transition:opacity 1.5s ease; transform: 1.5s ease;
+	background-color: yellow;
+}.nav-a-letras {
+    color: #FFFFFF;
+	
+}
+.navbar-nav.mr-auto .nav-item .nav-link.nav-a-letras {
+    color: #FFFFFF;
+}
+.navbar-nav.mr-auto .nav-item.dropdown #navbarDropdown2 {
+    color: #FFFFFF;
+}
+.navbar-nav.mr-auto .nav-item.dropdown #navbarDropdown1 {
+    color: #FFFFFF;
+}
+
+
+
+.redes-icono {
+    margin: 10px;
+}
+.div-nav {
+    padding: 10px;
+}
+.footer{
+	height:auto;
+}
+.boton-busqueda-hover {
+}
+.boton-busqueda-hover hover{
+	background-color: 
+}
+.posision-segundo-plano {
+	position: absolute;
+	
+}
+.div-iconos {
+    width: 70px;
+	
+}
+.div-grupo-iconos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.posicion-atras0 {
+	z-index: 0;
+}
+.z-index-1 {
+	z-index: -1;
+}
+.z-index1 {
+}
+.div-centrado-horizontal {
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
